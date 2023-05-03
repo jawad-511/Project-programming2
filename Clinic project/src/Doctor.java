@@ -2,28 +2,28 @@ public class Doctor extends Person {
     private String Job;
     private int yearsOfProficiency;
 
-    // Constructor
+    
     public Doctor(String name, int age, String gender, String phoneNum, String address, String Job, int yearsOfProficiency) {
-        super(name, age, gender, phoneNum, address);
-        this.Job = Job;
-        this.yearsOfProficiency = yearsOfProficiency;
+
+    // Constructor
     }
 
-    // Getter methods
+    
     public String getJob() {
-        return Job;
+       
+    // Getter methods
     }
 
     public int getYearsOfProficiency() {
-        return yearsOfProficiency;
+        // getter methods
     }
 
-    // Setter methods
+    
     public void setJob(String Job) {
-        this.Job = Job;
+    // Setter methods
     }
 
     public void setYearsOfProficiency(int yearsOfProficiency) {
-        this.yearsOfProficiency = yearsOfProficiency;
+        // code of method
     }
 }

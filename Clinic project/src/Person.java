@@ -7,53 +7,50 @@ public class Person {
 
     // Constructor
     public Person(String name, int age, String gender, String phoneNum, String address) {
-        this.name = name;
-        this.age = age;
-        this.gender = gender;
-        this.phoneNum = phoneNum;
-        this.address = address;
+       // Constructor
     }
 
-    // Getter methods
     public String getName() {
-        return name;
+       
+    // Getter methods
     }
 
     public int getAge() {
-        return age;
+    // getter age
     }
 
+
     public String getGender() {
-        return gender;
+        // get gender
     }
 
     public String getPhoneNum() {
-        return phoneNum;
+        // get phone
     }
 
     public String getAddress() {
-        return address;
+        //get adress
     }
 
-    // Setter methods
+    
     public void setName(String name) {
-        this.name = name;
+       // code
     }
 
     public void setAge(int age) {
-        this.age = age;
+        // code
     }
 
     public void setGender(String gender) {
-        this.gender = gender;
+        // code
     }
 
     public void setPhoneNum(String phoneNum) {
-        this.phoneNum = phoneNum;
-    }
+        // code
 
     public void setAddress(String address) {
-        this.address = address;
+        // code
         
     }
+}
 }

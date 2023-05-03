@@ -3,17 +3,17 @@ public class Patient extends Person {
 
     // Constructor
     public Patient(String name, int age, String gender, String phoneNum, String address, int patientID) {
-        super(name, age, gender, phoneNum, address);
-        this.patientID = patientID;
+        
+    // Constructor
     }
 
     // Getter methods
     public int getPatientID() {
-        return patientID;
+       // Getter methods
     }
 
     // Setter methods
     public void setPatientID(int patientID) {
-        this.patientID = patientID;
+       // Setter methods
     }
 }
