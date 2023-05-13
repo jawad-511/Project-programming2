@@ -1,19 +1,35 @@
 public class Patient extends Person {
     private int patientID;
+    private String serviceType;
 
     // Constructor
-    public Patient(String name, int age, String gender, String phoneNum, String address, int patientID) {
+    public Patient(String name, int age, String gender, String phoneNum, String address, int patientID, String serviceType) {
         
-    // Constructor
+        this.name = name;
+        this.age = age;
+        this.gender = gender;
+        this.phoneNum = phoneNum;
+        this.address = address;
+        this.patientID = patientID;
+        this.serviceType = serviceType;
     }
 
     // Getter methods
     public int getPatientID() {
-       // Getter methods
+         return this.patientID;
+    }
+
+    public String getServiceType(){
+         return this.serviceType;
     }
 
     // Setter methods
     public void setPatientID(int patientID) {
-       // Setter methods
-    }
+         this.patientID = patientID;
+   }
+   //Set Service type
+   public void setServiceType(String serviceType){
+         this.serviceType = ServiceType; 
+   }
+
 }

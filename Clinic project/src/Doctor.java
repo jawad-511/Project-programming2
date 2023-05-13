@@ -1,29 +1,35 @@
 public class Doctor extends Person {
-    private String Job;
+    private String specliazition;
     private int yearsOfProficiency;
 
     
-    public Doctor(String name, int age, String gender, String phoneNum, String address, String Job, int yearsOfProficiency) {
+    public Doctor(String name, int age, String gender, String phoneNum, String address, String specliazition, int yearsOfProficiency) {
 
-    // Constructor
+        this.name = name;
+        this.age = age;
+        this.gender = gender;
+        this.phoneNum = phoneNum;
+        this.address = address;
+        this.specliazition = specliazition;
+        this.yearsOfProficiency = yearsOfProficiency;
     }
 
     
-    public String getJob() {
+    public String getSpecliazition() {
        
-    // Getter methods
+        return this.specliazition;
     }
 
     public int getYearsOfProficiency() {
-        // getter methods
+        return this.yearsOfProficiency; 
     }
 
     
-    public void setJob(String Job) {
-    // Setter methods
+    public void setSpecliazition(String specliazition) {
+        this.specliazition = specliazition;
     }
 
     public void setYearsOfProficiency(int yearsOfProficiency) {
-        // code of method
-    }
+        this.yearsOfProficiency = yearsOfProficiency;
+    }
 }
